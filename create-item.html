@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/bootstrap.min.css" />
     <link rel="stylesheet" href="/asset/styles.css" />
-    <title>All Items</title>
+    <title>Create Item</title>
   </head>
   <body>
     <div class="container create-page">
@@ -45,6 +45,39 @@
         <div class="subheader">
           <h3 class="">Create an Item</h3>
           <p class="">Upload a new item for Donation</p>
+
+          <form action="" class="create-form">
+            <div>
+              <label for="uploadFile">Image of your Item</label>
+              <div class="upload">
+                <input type="file" id="uploadFile" class="upload-file" />
+                <img
+                  src="/asset/images/upload-img.png"
+                  alt="upload image"
+                  class="upload-img"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label for="">Name of Item</label>
+              <input type="text" placeholder="Name of Item" />
+            </div>
+
+            <div>
+              <label for="descrption">Item Description</label>
+              <textarea
+                name="descrption"
+                id="descrption"
+                cols="100%"
+                rows="6"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="submit">Donate Item →</button>
+            </div>
+          </form>
         </div>
       </main>
     </div>

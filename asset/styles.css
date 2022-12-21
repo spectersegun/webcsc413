@@ -414,11 +414,6 @@ main .subheader p {
   line-height: 29px;
   color: #25f0b3;
 }
-/* create-page  */
-
-.create-page main {
-  max-width: 850px;
-}
 
 /* view all bids  */
 .table-wrapper {
@@ -536,4 +531,158 @@ main .subheader p {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+}
+
+/* create-page  */
+
+.create-page main {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-page main input,
+.create-page main textarea,
+.main-content input,
+.main-content textarea {
+  display: block;
+  border: 2px solid #e4e4e4;
+  border-radius: 10px;
+  width: 100%;
+  padding: 14px;
+  font-size: 22px;
+}
+.create-page main input {
+  height: 77px;
+}
+
+.create-form .submit {
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 35px;
+  color: var(--white);
+  padding: 18px 32px;
+  border-radius: 50px;
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
+  margin-top: 20px;
+  font-family: 'sf-product-sans';
+}
+
+.create-page main label {
+  /* font-family: 'Poppins-medium'; */
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #474747;
+  margin-bottom: 23px;
+}
+.create-form {
+  margin-top: 3rem;
+}
+.create-form > div {
+  margin-bottom: 3rem;
+}
+
+.create-page .upload {
+  background: #fcfcfc;
+  border: 2px dashed #d3d3d3;
+  border-radius: 26px;
+  height: 360px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* aspect-ratio: 14 / 8; */
+}
+.create-form .upload-file {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  opacity: 0;
+}
+.create-form .upload-img {
+  /* position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+/* questions  */
+.questions main {
+  padding-bottom: 0px;
+}
+.questions .first-section {
+  min-height: 315px;
+  background: var(--white);
+}
+
+.questions .second-section {
+  min-height: 436px;
+  background: #f2ffd9;
+}
+
+.questions .main-content {
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(19, 24, 48, 0.0720283);
+  border-radius: 15px;
+  max-width: 1168px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 600px;
+  overflow-y: hidden;
+  position: relative;
+  top: -220px;
+}
+
+.main-content .left-side {
+  padding: 0px 4%;
+  border-right: 1px solid #dedede;
+  padding-top: 90px;
+}
+
+.main-content .right-side {
+  padding-top: 80px;
+  padding-left: 6%;
+}
+.main-content .right-side h3 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  font-family: 'sf-product-sans';
+}
+.main-content .right-side h3 .compl {
+  background-image: url(/asset/images/Fill-com.png);
+  background-repeat: no-repeat;
+  padding-left: 6px;
+  padding-bottom: 12px;
+}
+
+.questions .main-content button {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: 'sf-product-sans';
+  color: var(--white);
+  background: #fd3b39;
+  width: 350px;
+  height: 52px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  border: none;
+}
+.questions .main-content form > div {
+  margin-bottom: 14px;
+}
+
+.questions .main-content label {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  margin-bottom: 10px;
 }
