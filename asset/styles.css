@@ -841,7 +841,8 @@ p {
 .share {
   background-image: url(/asset/icons/Fill\ 4.svg);
   background-repeat: no-repeat;
-  padding-left: 6px;
+  background-size: 130% 100%;
+  background-position-x: -45px;
 }
 
 .d_rec {
