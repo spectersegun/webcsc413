@@ -900,3 +900,31 @@ p {
     width: 520px;
     height: 520px;
 } */
+
+@media screen and (max-width: 567px) {
+  .quote p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .quotes .quote h6 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .quotes .quote h5 {
+    font-size: 19px;
+  }
+  .quotes .q-pics {
+    margin-bottom: 6px;
+  }
+  .quotes .q-pics img {
+    width: 48px;
+    height: 48px;
+  }
+  .quotes .quote {
+    padding: 24px 28px;
+    width: 303px;
+  }
+  .appreciation-page .hero p {
+    font-size: 14px;
+  }
+}
